@@ -1,7 +1,3 @@
-class CartePizzeriaException(Exception):
-    """Exception levée pour les erreurs liées à la CartePizzeria."""
-    pass
-
 class Pizza:
     def __init__(self, name: str, ingredients: list, price: float):
         self.name = name
